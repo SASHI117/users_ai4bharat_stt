@@ -83,7 +83,7 @@ Follow the prompts to provide:
 ```json
 {
   "filename": "sample.wav",
-  "text": "మేడం నాకు వచ్చింది ...",
+  "text": "A long fairy tale ...",
   "latency_ms": 3000.12
 }
 ```
