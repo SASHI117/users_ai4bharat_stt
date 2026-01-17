@@ -32,27 +32,17 @@ pip install -r requirements.txt
 Before running the script, you **must edit** `stt_client.py` and set:
 
 ```python
-API_URL = "http://<YOUR_VM_PUBLIC_IP>:8000/stt"
-API_KEY = "<YOUR_API_KEY>"
+API_URL = "YOUR_API_URL"
+API_KEY = "YOUR_API_KEY"
 ```
 
 ### 🔹 What these mean
 
 * **API_URL**
   The full URL of the running STT FastAPI service
-  Example:
-
-  ```
-  http://74.225.216.132:8000/stt
-  ```
 
 * **API_KEY**
   The Bearer token required to authenticate with the API
-  Example:
-
-  ```
-  ai4bharat-secret-key-6262
-  ```
 
 ⚠️ The script will **not work** unless both values are set correctly.
 
@@ -61,7 +51,7 @@ API_KEY = "<YOUR_API_KEY>"
 ## ▶️ How to Run
 
 ```bash
-python stt_client.py
+python users.py
 ```
 
 You will see a menu:
@@ -109,25 +99,3 @@ Follow the prompts to provide:
 * Supports **batch transcription** via folders
 
 ---
-
-## ⚠️ Security Note
-
-Do **NOT** commit real API keys to public repositories.
-If sharing this repo publicly, replace the key with a placeholder.
-
----
-
-## 📌 Author
-
-**Sashi Vardhan Pragada**
-
----
-
-If you want next, I can:
-
-* Move `API_URL` and `API_KEY` to a `.env` file
-* Add CLI flags instead of editing code
-* Add CSV / JSON output saving
-* Make a Windows `.exe`
-
-Just tell me what you want next 🚀
