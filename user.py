@@ -2,8 +2,8 @@ import os
 import requests
 
 # ---------------- CONFIG ----------------
-API_URL = "http://74.225.216.132:8000/stt"
-API_KEY = "ai4bharat-secret-key-6262"
+API_URL = "YOUR_API_URL"
+API_KEY = "YOUR_API_KEY"
 
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}"
