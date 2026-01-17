@@ -20,8 +20,8 @@ The STT model runs on a **remote server**.
 ## 🔧 Installation
 
 ```bash
-git clone https://github.com/<your-username>/ai4bharat-stt-client.git
-cd ai4bharat-stt-client
+git clone https://github.com/SASHI117/users_ai4bharat_stt.git
+cd users_ai4bharat_stt
 pip install -r requirements.txt
 ```
 
