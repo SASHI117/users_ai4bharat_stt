@@ -5,7 +5,7 @@ remote **AI4Bharat Speech-to-Text (STT) API** and receive transcriptions.
 
 ⚠️ **Important**:
 This repo does **NOT** run any ML model locally.
-The STT model runs on a **remote server** (for example, an Azure VM).
+The STT model runs on a **remote server**.
 
 ---
 
